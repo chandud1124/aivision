@@ -1,0 +1,24 @@
+# AI & Computer Vision Dependencies
+# Install these separately after basic requirements
+# These require additional system dependencies
+
+# Face Recognition Stack
+opencv-python==4.10.0.84
+face-recognition==1.3.0
+dlib==19.24.2
+
+# Deep Learning (Optional)
+# tensorflow==2.18.0
+# keras==3.7.0
+
+# Additional Face Detection
+mtcnn==1.0.0
+deepface==0.0.93
+
+# Video Processing (Optional)
+# opencv-contrib-python==4.10.0.84
+# av==13.1.0
+# aiortc==1.10.0
+
+# Note: On macOS, you may need to install cmake and dlib dependencies:
+# brew install cmake dlib
